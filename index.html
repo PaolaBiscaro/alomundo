@@ -1,50 +1,45 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <!-- <title>Alo Mundo</title> -->
+  <meta charset="utf-8">
+  <!-- <title>Olá Mundo</title> --!>
 
-    <!-- Associar um arquivo de manifesto da web(web app manifest) a uma pagina html -->
-    <link rel="manifest" href="manifest.webmanifest">
+  <!-- associar um arquivo de manifesto da web (Web App Manifest) a uma página HTML -->
+  <link rel="manifest" href="manifest.webmanifest">
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="ola-mundo-31.icon" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">  
+  <link rel="icon" href="ola-mundo-32.ico" type="image/x-icon" />
 
-    <!-- controla a maneira como o navegador rendereza o conteudo em dispositivos moveis -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--controla a maneira como o navegador renderiza o conteúdo em dispositivos móveis -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <!--finir a cor do tema de um site em dispositivos móveis com o sistema operacional Android.-->
+  <meta name="theme-color" content="white"/>
 
-    <!-- definir a cor do tema de um site em dispositivos moveiscom o sistema operacional android -->
-    <meta name="theme-color" content="white">
+  <!--fornecer um ícone personalizado para dispositivos iOS, como iPhones e iPads, quando um usuário adiciona o site à tela inicial do dispositivo. -->
+  <link rel="apple-touch-icon" href="images/ola-mundo-128.png">
 
-    <!-- fornecer um icone persolanizado para dispositivos ios que o site pode ser executado em modo de aplicativo web -->
-    <meta name="apple-touch-icon" content="images/ola-mundo-128.png">
+  <!--indicar ao navegador Safari em dispositivos iOS que o site pode ser executado em modo de aplicativo da web.-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
 
+  <!--definir o estilo da barra de status em um aplicativo da web em tela cheia no Safari em dispositivos iOS.-->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-    <meta name="apple-mobile-web-app-capable" content="yes">
+  <!--definir o título do aplicativo da web em tela cheia no Safari em dispositivos iOS.-->
+  <meta name="apple-mobile-web-app-title" content="Olá Mundo">
 
-    <!-- definir o estilo da barra de status em um aplicativo da web quw em tela cheia no safari em dispositivos ios -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!--especificar a imagem que será usada como ícone da tela inicial do site no Microsoft Edge e outros aplicativos do Windows.-->
+  <meta name="msapplication-TileImage" content="images/ola-mundo-128.png">
 
-    <!-- indicar no navegador safari em dispositivos ios que o site pode ser executado em modo de aplicativo web -->
-    <meta name="apple-mobile-web-app-title" content="Olá Mundo">
-
-    <!-- especificar a imagem que será usada com o icone da tela inicial do site na microsoft edge e outros aplicativos do windows -->
-    <meta name="msapplication-TileImagem" content="images/ola-mundo-128.png">
-
-    <!-- especificar a cor de fundo do iconeda tela inicial do site no microsoft edge e outros aplicativos do windows -->
-    <meta name="msapplication-TileColor" content="#fffff">
-
-
+  <!--especificar a cor de fundo do ícone da tela inicial do site no Microsoft Edge e outros aplicativos do Windows.-->
+  <meta name="msapplication-TileColor" content="#FFFFFF">
 </head>
-
 <body class="fullscreen">
-    <div class="container">
-        <h1 class="title">Olá Mundo(PWA)!!!</h1>
-    </div>
+  <div class="container">
+    <h1 class="title">Olá Mundo (PWA)!!!</h1>
+  </div>
 
-    <!-- carregar arquivos javascript -->
-    <script src="js/main.js"></script>
+  <!-- carregar um arquivo JavaScript externo chamado "main.js" no documento HTML atual. -->
+  <script src="js/main.js"></script>
 </body>
-
 </html>
