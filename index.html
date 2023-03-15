@@ -2,13 +2,43 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Alo Mundo</title>
+    <!-- <title>Alo Mundo</title> -->
+
+    <!-- Associar um arquivo de manifesto da web(web app manifest) a uma pagina html -->
+    <link rel="manifest" href="manifest.webmanifest">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="ola-mundo-31.icon" type="image/x-icon" >
+
+    <!-- controla a maneira como o navegador rendereza o conteudo em dispositivos moveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- definir a cor do tema de um site em dispositivos moveiscom o sistema operacional android -->
+    <meta name="theme-color" content="white">
+
+     <!-- fornecer um icone persolanizado para dispositivos ios que o site pode ser executado em modo de aplicativo web -->
+     <meta name="apple-toch-icon" content="images/ola-mundo-128.png">
+
+    <!-- definir o estilo da barra de status em um aplicativo da web quw em tela cheia no safari em dispositivos ios -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- indicar no navegador safari em dispositivos ios que o site pode ser executado em modo de aplicativo web -->
+    <meta name="apple-mobile-web-app-title" content="Olá Mundo">
+
+    <!-- especificar a imagem que será usada com o icone da tela inicial do site na microsoft edge e outros aplicativos do windows -->
+     <meta name="msapplication-TileImagem" content="images/ola-mundo-128.png">
+
+     <!-- especificar a cor de fundo do iconeda tela inicial do site no microsoft edge e outros aplicativos do windows -->
+    <meta name="msapplication-TileColor" content="#fffff">
+
+
 </head>
 <body  class="fullscreen">
     <div class="container">
         <h1 class="title">Olá Mundo (HTML)!!!</h1>
     </div>
+
+    <!-- carregar arquivos javascript -->
+    <script src="js/main.js"></script>
 </body>
 </html>
